@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title> My Profile </title> 
+		<meta charset=“UTF-8”> 
+		<meta name=“description” content=“When you search for your website this is the description that shows up”> 
+        <link rel="stylesheet" type="text/css" href="styles.css"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+	</head> 
+	<body>
+        <header>
+            <nav>
+                <!--This is where my navigation bar will be, include Bio link and contact link-->
+                <a href="#bio"><h4 class="navbutton">Bio</h4></a>
+                <a href="#contact"><h4 class="navbutton">Contact</h4></a>
+                <a href="#links"><h4 class="navbutton">Links</h4></a>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <!-- This is where I want my picture and a short quote.
+                <figure>
+                    <img id="floral-pic" class="block" src="images/photo-1546842931-886c185b4c8c.jpeg" alt="floral pattern background"> 
+                </figure> -->
+                <figure>
+                    <img id="profile-pic" class="block" src="images/profile.pic.jpg" alt="My profile picture">
+                    <figcaption>Let me design your next website</figcaption>
+                </figure>
+                <h1 id="name" class="centertext">Amanda Morgan</h1>
+                <p class="centertext" ><i>"We don't make mistakes, just happy accidents." ~ Bob Ross</i></p>
+            </section>
+            <section>
+                <h2 class="heading" id="bio">Little Bit About Me:</h2>
+                <!-- This is where I want my Short Bio and maybe a list of favorite things -->
+                <p>Hi! My name is Amanda Morgan and I am currently an Elementary School Art Teacher in Columbiana, Alabama. I am working on becoming a Website Developer.</p>
+                <p>Fun Fact about me is I love to Crochet. My Granny taught me when I was 8 years old and I have been crocheting ever since. I own an Etsy Shop called, The Retro Stitch and I teach Crocheting class at our local Arts Council.</p>
+            </section>
+            <section>
+                <h2 class="heading" id="contact">Contact Me</h2>
+                <form>
+                    <!-- Has the contact me form with name, email and send button. -->
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <input id="submit" type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <!-- Colored bar at the bottom that has my info, email, github, phone, portfolio-->
+            <h2 class="heading" id="links">Links</h2>
+            <p>@2021</p>
+            <p>Phone:(205)902-3708</p>
+            <p>Email:AmandaC0022@gmail.com</p>
+            <figure class="inline">
+                <a href="https://www.facebook.com/amanda.coker.5855/"><img class="logolinks" src="images/logo-facebook-512.png" title="Go to Amanda's Facebook Profile" target="_blank" alt="link to facebook profile"></a>
+            </figure>
+            <figure class="inline">
+                <a href="https://github.com/AmandaC0022"><img class="logolinks" src="images/2048px-Octicons-mark-github.svg.png" title="Go to Amanda's GitHub Profile" target="_blank" alt="link to github account"></a>
+            </figure>
+            <figure class="inline">
+                <a href="https://www.etsy.com/shop/TheRetroStitch"><img class="logolinks" src="images/17-176666_etsy-logo-transparent-png-burial-young-death-nightmarket.png" title="Go to Amanda's Etsy Shop" target="_blank" alt="link to Etsy shop"></a>
+            </figure>
+        </footer>
+
+	</body>
+</html> 

@@ -1,0 +1,84 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-image: url(images/photo-1546842931-886c185b4c8c.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer {
+    background-color:#e58284;
+}
+nav {
+    background-color: #e58284;
+    padding:20px;
+    position:fixed; 
+    top:0;
+    width:100%;
+}
+.navbutton {
+    padding:20px 10px;
+    display:inline;
+    border:2px solid #e7ddce;
+    border-radius:20px; 
+    background-color:#0f473f;
+    color:#e58284;
+}
+.inline {
+    display:inline;
+}
+.block {
+    display:block; 
+}
+#profile-pic {
+    margin:0 auto; 
+    margin-top:100px;  
+    width: 180px;   
+    border-radius: 100px;
+    border:10px dotted #e58284;
+}
+figcaption {
+    text-align:center;
+}
+#name {
+    font-weight:bolder; 
+}
+section {
+    margin:20px;
+}
+.logolinks{
+    width:100px; 
+}
+/*#floral-pic { 
+    position:fixed; 
+    left:0; 
+    top:10px; 
+    width: 100%;
+    margin: 0;
+    z-index: -1; 
+} */
+.centertext {
+    text-align:center; 
+}
+input {
+    width:250px;
+    background-color:#e7ddce;
+    margin-bottom:10px;
+}
+.heading {
+    background-color:#0f473f;
+    color:#e58284;
+    padding:20px;
+    border:2px solid #e7ddce;
+}
+#submit{
+    width:200px; 
+    border-radius:10px;
+    color:#0f473f;
+    font-size:large;
+}
+/* colors: 
+    dark green: #1f675c
+    light pink: #e0a0a7
+    dark pink: #e58284
+    off white: #e7ddce
+    light teal: #84c3b2
+*/ 
