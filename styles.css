@@ -1,27 +1,42 @@
+/* colors: 
+    dark green: #1f675c
+    light pink: #e0a0a7
+    dark pink: #e58284
+    off white: #e7ddce
+    light teal: #84c3b2
+*/ 
+
 body {
     font-family: 'Playfair Display', serif;
-    background-image: url(images/photo-1546842931-886c185b4c8c.jpeg);
+    background-image:url("images/flower-background.jpeg"); 
+    background-position: top right; 
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: 18px; 
 }
+
 footer {
     background-color:#e58284;
 }
 nav {
     background-color: #e58284;
-    padding:20px;
-    position:fixed; 
-    top:0;
-    width:100%;
+    margin:0; 
+
 }
 .navbutton {
     padding:20px 10px;
     display:inline;
     border:2px solid #e7ddce;
     border-radius:20px; 
-    background-color:#0f473f;
+    background-color:#0f473f; 
+}
+
+nav a{
+    font-size: 1.5em; 
+    text-decoration:none;
     color:#e58284;
 }
+
 .inline {
     display:inline;
 }
@@ -39,7 +54,7 @@ figcaption {
     text-align:center;
 }
 #name {
-    font-weight:bolder; 
+    font-size: 2em; 
 }
 section {
     margin:20px;
@@ -47,14 +62,6 @@ section {
 .logolinks{
     width:100px; 
 }
-/*#floral-pic { 
-    position:fixed; 
-    left:0; 
-    top:10px; 
-    width: 100%;
-    margin: 0;
-    z-index: -1; 
-} */
 .centertext {
     text-align:center; 
 }
@@ -62,12 +69,26 @@ input {
     width:250px;
     background-color:#e7ddce;
     margin-bottom:10px;
+    border: 2px inset black; 
 }
 .heading {
     background-color:#0f473f;
     color:#e58284;
     padding:20px;
     border:2px solid #e7ddce;
+    font-size: 2em; 
+}
+#textbox {
+    width: 50%; 
+    height: 200px;  
+}
+.textbox { 
+    background-color: rgba(231,221,206, 0.5);  
+    padding: 20px;
+}
+p {
+    color: black; 
+    font-weight:bold; 
 }
 #submit{
     width:200px; 
@@ -75,10 +96,3 @@ input {
     color:#0f473f;
     font-size:large;
 }
-/* colors: 
-    dark green: #1f675c
-    light pink: #e0a0a7
-    dark pink: #e58284
-    off white: #e7ddce
-    light teal: #84c3b2
-*/ 
